@@ -1,0 +1,27 @@
+nav a{
+    margin-right: 10px;
+   text-decoration: none;
+    color: black;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login-form{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+}
+.login-form input{
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 5px, 10px;
+}
+.login-form input[type="submit"]{
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 700;
+}
